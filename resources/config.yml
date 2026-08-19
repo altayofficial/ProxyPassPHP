@@ -1,0 +1,29 @@
+## Address the proxy will bind to.
+proxy:
+  host: 0.0.0.0
+  port: 19122
+## Destination server which the client will be forwarded to.
+## You are only able to join offline mode servers
+destination:
+  host: 127.0.0.1
+  port: 19132
+## Maximum amount of clients which can connect to the proxy. Set it to 0 to disable the limit.
+max-clients: 0
+## Log packets for each session
+log-packets: true
+## Where to log packet data
+## Valid options: console, file or both
+log-to: both
+
+## Packets to ignore to make your log more refined. These default packets are generally spammed
+ignored-packets:
+  - "SetActorDataPacket"
+  - "MoveActorDeltaPacket"
+  - "SetActorMotionPacket"
+  - "NetworkStackLatencyPacket"
+  - "LevelChunkPacket"
+  - "MovePlayerPacket"
+  - "PlayerAuthInputPacket"
+  - "NetworkChunkPublisherUpdatePacket"
+  - "ClientCacheBlobStatusPacket"
+  - "ClientCacheMissResponsePacket"
