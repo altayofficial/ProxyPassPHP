@@ -1,0 +1,54 @@
+{
+	"name": "altayofficial/proxypass",
+	"description": "Minecraft: Bedrock Edition proxy which logs the packet flow between a client and a remote server",
+	"type": "project",
+	"license": "GPL-3.0-or-later",
+	"require": {
+		"php": "^8.1",
+		"ext-crypto": "^0.3.1",
+		"ext-encoding": "~1.0.0",
+		"ext-gmp": "*",
+		"ext-json": "*",
+		"ext-openssl": "*",
+		"ext-sockets": "*",
+		"ext-yaml": ">=2.0.0",
+		"ext-zlib": ">=1.2.11",
+		"altayofficial/bedrock-protocol": "dev-bedrock-1.26.50",
+		"altayofficial/network": "dev-main",
+		"pocketmine/binaryutils": "^0.2.6",
+		"pocketmine/log": "^0.4.0",
+		"ramsey/uuid": "^4.1"
+	},
+	"repositories": [
+		{
+			"type": "vcs",
+			"url": "https://github.com/altayofficial/Network"
+		},
+		{
+			"type": "vcs",
+			"url": "https://github.com/altayofficial/BedrockProtocol"
+		},
+		{
+			"type": "vcs",
+			"url": "https://github.com/altayofficial/webrtc"
+		},
+		{
+			"type": "vcs",
+			"url": "https://github.com/altayofficial/dtls"
+		},
+		{
+			"type": "vcs",
+			"url": "https://github.com/altayofficial/nbt"
+		}
+	],
+	"minimum-stability": "dev",
+	"prefer-stable": true,
+	"autoload": {
+		"psr-4": {
+			"altay\\proxypass\\": "src/"
+		}
+	},
+	"config": {
+		"sort-packages": true
+	}
+}
