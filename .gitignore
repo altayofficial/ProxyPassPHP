@@ -1,0 +1,10 @@
+/vendor/
+/config.yml
+/sessions/
+/data/
+
+.idea/
+.vscode/
+*.log
+.phpunit.result.cache
+.php-cs-fixer.cache
