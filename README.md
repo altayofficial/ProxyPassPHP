@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-	<a href="https://github.com/altayofficial/ProxyPass/actions/workflows/ci.yml"><img alt="CI" src="https://img.shields.io/github/actions/workflow/status/altayofficial/ProxyPass/ci.yml?branch=main&style=for-the-badge&logo=github&label=CI"></a>
+	<a href="https://github.com/altayofficial/ProxyPassPHP/actions/workflows/ci.yml"><img alt="CI" src="https://img.shields.io/github/actions/workflow/status/altayofficial/ProxyPassPHP/ci.yml?branch=main&style=for-the-badge&logo=github&label=CI"></a>
 	<a href="https://www.php.net/"><img alt="PHP" src="https://img.shields.io/badge/PHP-8.1%2B-777BB4?style=for-the-badge&logo=php&logoColor=white"></a>
 	<a href="https://minecraft.net/"><img alt="Minecraft" src="https://img.shields.io/badge/Minecraft-1.26.50%20(2192)-62B47A?style=for-the-badge&logo=minecraft&logoColor=white"></a>
 	<a href="LICENSE"><img alt="License" src="https://img.shields.io/badge/license-GPL--3.0-blue?style=for-the-badge"></a>
